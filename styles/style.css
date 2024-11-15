@@ -130,10 +130,6 @@ video {
   gap: 15px;
 }
 
-
-
-
-
 .search-form__pseudo-checkbox::after { 
   content: "";
   position: absolute;
