@@ -337,7 +337,7 @@ img.content__video-card-thumbnail {
 }
 
 .preloader-template .cards-list-item-template { 
-  position: absolute;
+  position: relative;
   inset: 0;
 }
 
