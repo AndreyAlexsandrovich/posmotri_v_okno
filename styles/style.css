@@ -130,11 +130,22 @@ video {
   gap: 15px;
 }
 
+
+
+.search-form__label { 
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+
+
 .search-form__pseudo-checkbox::after { 
   content: "";
-  position: absolute;
+  position: relative;
+  display: block;
   top: 50%;
-  left: 50%;
+  left: 50%;  
   transform: translate(-50%, -50%);
   width: 15px;
   height: 15px;
