@@ -117,6 +117,14 @@ video {
   width: fit-content;
 }
 
+.search-form__fieldset:first-child { 
+  margin-bottom: 5px;
+}
+
+
+
+
+
 .search-form__fieldset-title { 
   font-size: 18px;
   font-weight: 400;
@@ -128,13 +136,13 @@ video {
 .search-form__checkbox-list { 
   display: flex;
   gap: 15px;
+  margin: 0 0 0 5px;
 }
 
 
 
 .search-form__label { 
   display: flex;
-  position: relative;
   align-items: center;
 }
 
@@ -193,7 +201,7 @@ label span.search-form__pseudo-checkbox {
 }
 
 input.search-form__textfield::placeholder { 
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 21.6px;
   color: rgb(255, 255, 255, 0.70);
@@ -207,8 +215,8 @@ input.search-form__textfield::placeholder {
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
-  padding: 6px 74px;
   border: 1px inset #ffff;
+  padding: 6px 70px;
   border-radius: 0px;
 }
 
@@ -222,7 +230,8 @@ input.search-form__textfield::placeholder {
 }
 
 .search-form__submit-button { 
-  margin-top: auto
+  margin-top: auto;
+  margin-left: 30px;
 }
 
 .search-form__submit-button:active { 
@@ -343,6 +352,7 @@ input.search-form__textfield::placeholder {
 }
 
 img.content__video-card-thumbnail { 
+  width: 175px;
   max-width: 100%;
   object-fit: cover;
 }
