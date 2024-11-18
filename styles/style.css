@@ -78,6 +78,7 @@ label:has(input:focus-visible) {
    display: flex;
    align-items: flex-end ;
    gap: 30px;
+   margin-left: 20px;
 }
 
 .result {
@@ -240,7 +241,7 @@ label:has(input:focus-visible) {
 
 .search-form__submit-button {
     margin-top: auto;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 }
 
 .search-form__submit-button:active {
@@ -357,6 +358,7 @@ label:has(input:focus-visible) {
 
 img.content__video-card-thumbnail {
     width: 194px;
+    height: 103px;
     max-width: 100%;
     object-fit: cover;
 }
