@@ -78,7 +78,6 @@ label:has(input:focus-visible) {
    display: flex;
    align-items: flex-end ;
    gap: 30px;
-   margin-left: 20px;
 }
 
 .result {
