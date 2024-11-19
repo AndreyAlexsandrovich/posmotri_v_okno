@@ -104,7 +104,6 @@ label:has(input:focus-visible) {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    margin-left: 2px;
 }
 
 .search-form__fieldset:first-child {
@@ -117,12 +116,14 @@ label:has(input:focus-visible) {
     font-family: "Fira Sans Condensed", sans-serif;
     margin-bottom: 5px;
     line-height: 21.6px;
+    margin-left: 5px;
     color: #ffff;
 }
 
 .search-form__checkbox-list {
     display: flex;
     gap: 15px;
+    margin-left: 7px;
 }
 
 .search-form__label {
@@ -164,7 +165,7 @@ label:has(input:focus-visible) {
     height: 19px;
     border: 1px solid #ffff;
     background-color: transparent;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
 .search-form__label-text {
@@ -182,9 +183,8 @@ label:has(input:focus-visible) {
     color: currentColor;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    padding: 2px 0;
-   
     inline-size: 225px;
+    min-height: 27px;
 }
 
 .search-form__textfield:focus {
