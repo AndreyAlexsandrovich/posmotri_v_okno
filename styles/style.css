@@ -242,6 +242,7 @@ label:has(input:focus-visible) {
 .search-form__submit-button {
     margin-top: auto;
     margin-left: 25px;
+    margin-bottom: -2px;
 }
 
 .content__details {
