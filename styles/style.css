@@ -93,18 +93,18 @@ label:has(input:focus-visible) {
 
 .search-form {
     display: flex;
-    justify-content: start;
     align-items: center;
     flex-direction: row;
     gap: 45px;
     margin-top: 16px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .search-form__fieldset {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    margin-bottom: 6px;
 }
 
 
@@ -243,6 +243,9 @@ label:has(input:focus-visible) {
 
 .search-form__submit-button {
     margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .content__details {
