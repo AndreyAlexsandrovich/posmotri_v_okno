@@ -95,7 +95,7 @@ label:has(input:focus-visible) {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 20px;
+    gap: 45px;
     margin-top: 16px;
     margin-bottom: 5px;
 }
@@ -106,9 +106,7 @@ label:has(input:focus-visible) {
     width: fit-content;
 }
 
-.search-form__fieldset:first-child {
-    margin-right: 20px;
-}
+
 
 .search-form__fieldset-title {
     font-size: 18px;
@@ -116,7 +114,6 @@ label:has(input:focus-visible) {
     font-family: "Fira Sans Condensed", sans-serif;
     margin-bottom: 5px;
     line-height: 21.6px;
-    margin-left: 5px;
     color: #ffff;
 }
 
@@ -128,6 +125,7 @@ label:has(input:focus-visible) {
 .search-form__label {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -244,7 +242,6 @@ label:has(input:focus-visible) {
 
 .search-form__submit-button {
     margin-top: auto;
-    margin-left: 25px;
     margin-bottom: -2px;
 }
 
