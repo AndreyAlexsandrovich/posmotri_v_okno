@@ -106,8 +106,6 @@ label:has(input:focus-visible) {
     margin-bottom: 6px;
 }
 
-
-
 .search-form__fieldset-title {
     font-size: 18px;
     font-weight: 400;
