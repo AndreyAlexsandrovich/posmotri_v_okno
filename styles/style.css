@@ -97,7 +97,6 @@ label:has(input:focus-visible) {
     flex-direction: row;
     gap: 45px;
     margin-top: 16px;
-    /* margin-bottom: 5px; */
 }
 
 .search-form__fieldset {
