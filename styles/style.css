@@ -167,6 +167,7 @@ label:has(input:focus-visible) {
 .search-form__label-text {
     font-weight: 400;
     font-size: 18px;
+    font-family: "Fira Sans Condensed", sans-serif;
     line-height: 21.6px;
     color: #ffff;
     appearance: none;
@@ -348,6 +349,7 @@ label:has(input:focus-visible) {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-family: "Fira Sans Condensed", sans-serif;
 }
 
 img.content__video-card-thumbnail {
