@@ -95,6 +95,7 @@ label:has(input:focus-visible) {
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-direction: row;
     gap: 45px;
     margin-top: 16px;
     margin-bottom: 5px;
@@ -242,7 +243,6 @@ label:has(input:focus-visible) {
 
 .search-form__submit-button {
     margin-top: auto;
-    margin-bottom: -2px;
 }
 
 .content__details {
