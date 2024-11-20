@@ -79,6 +79,7 @@ label:has(input:focus-visible) {
    display: flex;
    align-items: flex-end ;
    gap: 30px;
+   inline-size: 1140px;
 }
 
 .result {
@@ -93,17 +94,17 @@ label:has(input:focus-visible) {
 
 .search-form {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
-    gap: 45px;
+    gap: 40px;
     margin-top: 16px;
 }
 
 .search-form__fieldset {
-    display: flex;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: column;
-    width: fit-content;
-    margin-bottom: 6px;
 }
 
 .search-form__fieldset-title {
@@ -271,6 +272,7 @@ label:has(input:focus-visible) {
 .content__list {
     position: relative;
     overflow-y: auto;
+    overflow-x: clip;
     block-size: 298px;
 }
 
